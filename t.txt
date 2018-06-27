@@ -1,0 +1,11 @@
+初始化git项目：git init
+添加当前目录下的所有文件：git add .
+commit添加版本号：git commit -m "版本号"
+上传：git push origin master
+删除文件：git rm -r 文件
+对比文件是否修改：git diff
+显示工作区和暂存区文件:git ls-files
+
+
+
+ 
