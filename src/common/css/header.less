@@ -1,0 +1,64 @@
+@import url('./color.less');
+.headVue(@backcolor:#EEA2AD,@fcolor:#fff){
+	box-shadow: 0 0 8px rgba(199, 199, 199, 0.33);
+	position: relative;
+	z-index: 1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	overflow: hidden;
+    border-bottom: 1px solid #c6c6c6;
+	background-color: @backcolor;
+	h1{
+	    width: 100%;
+	    overflow: hidden;
+	    position: relative;
+	    font-weight: normal;
+	    text-align: center;
+	    font-size: 18px;
+	    color: @fcolor;
+	}
+	.header_back{
+		width: 42px;
+	    height: 75px;
+	    left: 6px;
+	    margin-top: -33px;
+	    position: absolute;
+	    z-index: 3;
+	    top: 44%;
+	    transform: scale(0.6);
+	}
+	.header_back img{
+		width: 18px;
+	    display: block;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-top: -16px;
+	    margin-left: -10px;
+	}
+	/* .header_goHome{
+		
+	} */
+	.header_goHome {
+		width: 23px;
+	    height: 23px;
+	    right: 18px;
+	    margin-top: -11px;
+	    position: absolute;
+	    z-index: 3;
+	    top: 50%;
+		img{
+			width: 80%;
+		}
+	}
+	a{
+		margin: 0;
+	    padding: 0;
+	    font-size: 100%;
+	    text-decoration: none;
+	    outline: none;
+	    background: none;
+	}
+	
+}
